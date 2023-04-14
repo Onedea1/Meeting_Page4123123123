@@ -169,201 +169,239 @@ class MyAppState extends State<MyApp> {
                     ),
                     //모임요일 선택
                     //
+                    // Container(
+                    //   child: SingleChildScrollView(
+                    //     scrollDirection: Axis.horizontal,
+                    //     child: Row(
+                    //       children: [
+                    //         SizedBox(
+                    //           height: 48,
+                    //           width: 48,
+                    //           child: TextButton(
+                    //             onPressed: () {},
+                    //             child: Text(
+                    //               '월',
+                    //               style: TextStyle(
+                    //                   height: 1.2,
+                    //                   fontSize: 16,
+                    //                   fontFamily: 'SUIT',
+                    //                   fontWeight: FontWeight.w500,
+                    //                   color: Color(0xFFCED0D5)),
+                    //             ),
+                    //             style: TextButton.styleFrom(
+                    //               // fixedSize: Size(48, 48),
+                    //               elevation: 0,
+                    //               side: BorderSide(color: MIXIN_BLACK_5),
+                    //               shape: RoundedRectangleBorder(
+                    //                 borderRadius: BorderRadius.circular(16),
+                    //               ),
+                    //             ),
+                    //           ),
+                    //         ),
+                    //         SizedBox(
+                    //           width: 8,
+                    //         ),
+                    //         SizedBox(
+                    //           height: 48,
+                    //           width: 48,
+                    //           child: TextButton(
+                    //             onPressed: () {},
+                    //             child: Text(
+                    //               '화',
+                    //               style: TextStyle(
+                    //                   height: 1.2,
+                    //                   fontSize: 16,
+                    //                   fontFamily: 'SUIT',
+                    //                   fontWeight: FontWeight.w500,
+                    //                   color: Color(0xFFCED0D5)),
+                    //             ),
+                    //             style: TextButton.styleFrom(
+                    //               // fixedSize: Size(48, 48),
+                    //               elevation: 0,
+                    //               side: BorderSide(color: MIXIN_BLACK_5),
+                    //               shape: RoundedRectangleBorder(
+                    //                 borderRadius: BorderRadius.circular(16),
+                    //               ),
+                    //             ),
+                    //           ),
+                    //         ),
+                    //         SizedBox(
+                    //           width: 8,
+                    //         ),
+                    //         SizedBox(
+                    //           height: 48,
+                    //           width: 48,
+                    //           child: TextButton(
+                    //             onPressed: () {},
+                    //             child: Text(
+                    //               '수',
+                    //               style: TextStyle(
+                    //                   height: 1.2,
+                    //                   fontSize: 16,
+                    //                   fontFamily: 'SUIT',
+                    //                   fontWeight: FontWeight.w500,
+                    //                   color: Color(0xFFCED0D5)),
+                    //             ),
+                    //             style: TextButton.styleFrom(
+                    //               // fixedSize: Size(48, 48),
+                    //               elevation: 0,
+                    //               side: BorderSide(color: MIXIN_BLACK_5),
+                    //               shape: RoundedRectangleBorder(
+                    //                 borderRadius: BorderRadius.circular(16),
+                    //               ),
+                    //             ),
+                    //           ),
+                    //         ),
+                    //         SizedBox(
+                    //           width: 8,
+                    //         ),
+                    //         SizedBox(
+                    //           height: 48,
+                    //           width: 48,
+                    //           child: TextButton(
+                    //             onPressed: () {},
+                    //             child: Text(
+                    //               '목',
+                    //               style: TextStyle(
+                    //                   height: 1.2,
+                    //                   fontSize: 16,
+                    //                   fontFamily: 'SUIT',
+                    //                   fontWeight: FontWeight.w500,
+                    //                   color: Color(0xFFCED0D5)),
+                    //             ),
+                    //             style: TextButton.styleFrom(
+                    //               // fixedSize: Size(48, 48),
+                    //               elevation: 0,
+                    //               side: BorderSide(color: MIXIN_BLACK_5),
+                    //               shape: RoundedRectangleBorder(
+                    //                 borderRadius: BorderRadius.circular(16),
+                    //               ),
+                    //             ),
+                    //           ),
+                    //         ),
+                    //         SizedBox(
+                    //           width: 8,
+                    //         ),
+                    //         SizedBox(
+                    //           height: 48,
+                    //           width: 48,
+                    //           child: TextButton(
+                    //             onPressed: () {},
+                    //             child: Text(
+                    //               '금',
+                    //               style: TextStyle(
+                    //                   height: 1.2,
+                    //                   fontSize: 16,
+                    //                   fontFamily: 'SUIT',
+                    //                   fontWeight: FontWeight.w500,
+                    //                   color: Color(0xFFCED0D5)),
+                    //             ),
+                    //             style: TextButton.styleFrom(
+                    //               // fixedSize: Size(48, 48),
+                    //               elevation: 0,
+                    //               side: BorderSide(color: MIXIN_BLACK_5),
+                    //               shape: RoundedRectangleBorder(
+                    //                 borderRadius: BorderRadius.circular(16),
+                    //               ),
+                    //             ),
+                    //           ),
+                    //         ),
+                    //         SizedBox(
+                    //           width: 8,
+                    //         ),
+                    //         SizedBox(
+                    //           height: 48,
+                    //           width: 48,
+                    //           child: TextButton(
+                    //             onPressed: () {},
+                    //             child: Text(
+                    //               '토',
+                    //               style: TextStyle(
+                    //                   height: 1.2,
+                    //                   fontSize: 16,
+                    //                   fontFamily: 'SUIT',
+                    //                   fontWeight: FontWeight.w500,
+                    //                   color: Color(0xFFCED0D5)),
+                    //             ),
+                    //             style: TextButton.styleFrom(
+                    //               // fixedSize: Size(48, 48),
+                    //               elevation: 0,
+                    //               side: BorderSide(color: MIXIN_BLACK_5),
+                    //               shape: RoundedRectangleBorder(
+                    //                 borderRadius: BorderRadius.circular(16),
+                    //               ),
+                    //             ),
+                    //           ),
+                    //         ),
+                    //         SizedBox(
+                    //           width: 8,
+                    //         ),
+                    //         SizedBox(
+                    //           height: 48,
+                    //           width: 48,
+                    //           child: TextButton(
+                    //             onPressed: () {},
+                    //             child: Text(
+                    //               '일',
+                    //               style: TextStyle(
+                    //                   height: 1.2,
+                    //                   fontSize: 16,
+                    //                   fontFamily: 'SUIT',
+                    //                   fontWeight: FontWeight.w500,
+                    //                   color: Color(0xFFCED0D5)),
+                    //             ),
+                    //             style: TextButton.styleFrom(
+                    //               // fixedSize: Size(48, 48),
+                    //               elevation: 0,
+                    //               side: BorderSide(color: MIXIN_BLACK_5),
+                    //               shape: RoundedRectangleBorder(
+                    //                 borderRadius: BorderRadius.circular(16),
+                    //               ),
+                    //             ),
+                    //           ),
+                    //         ),
+                    //       ],
+                    //     ),
+                    //   ),
+                    // ),
                     Container(
                       child: SingleChildScrollView(
                         scrollDirection: Axis.horizontal,
                         child: Row(
-                          children: [
-                            SizedBox(
+                          children: List.generate(
+                            7,
+                                (index) => Padding(
+                                  padding: const EdgeInsets.only(right:8.0),
+                                  child: SizedBox(
                               height: 48,
                               width: 48,
                               child: TextButton(
-                                onPressed: () {},
-                                child: Text(
-                                  '월',
-                                  style: TextStyle(
+                                  onPressed: () {},
+                                  child: Text(
+                                    ['월', '화', '수', '목', '금', '토', '일'][index],
+                                    style: TextStyle(
                                       height: 1.2,
                                       fontSize: 16,
                                       fontFamily: 'SUIT',
                                       fontWeight: FontWeight.w500,
-                                      color: Color(0xFFCED0D5)),
-                                ),
-                                style: TextButton.styleFrom(
-                                  // fixedSize: Size(48, 48),
-                                  elevation: 0,
-                                  side: BorderSide(color: MIXIN_BLACK_5),
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(16),
+                                      color: Color(0xFFCED0D5),
+                                    ),
                                   ),
-                                ),
+                                  style: TextButton.styleFrom(
+                                    elevation: 0,
+                                    side: BorderSide(color: MIXIN_BLACK_5),
+                                    shape: RoundedRectangleBorder(
+                                      borderRadius: BorderRadius.circular(16),
+                                    ),
+                                  ),
                               ),
                             ),
-                            SizedBox(
-                              width: 8,
-                            ),
-                            SizedBox(
-                              height: 48,
-                              width: 48,
-                              child: TextButton(
-                                onPressed: () {},
-                                child: Text(
-                                  '화',
-                                  style: TextStyle(
-                                      height: 1.2,
-                                      fontSize: 16,
-                                      fontFamily: 'SUIT',
-                                      fontWeight: FontWeight.w500,
-                                      color: Color(0xFFCED0D5)),
                                 ),
-                                style: TextButton.styleFrom(
-                                  // fixedSize: Size(48, 48),
-                                  elevation: 0,
-                                  side: BorderSide(color: MIXIN_BLACK_5),
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(16),
-                                  ),
-                                ),
-                              ),
-                            ),
-                            SizedBox(
-                              width: 8,
-                            ),
-                            SizedBox(
-                              height: 48,
-                              width: 48,
-                              child: TextButton(
-                                onPressed: () {},
-                                child: Text(
-                                  '수',
-                                  style: TextStyle(
-                                      height: 1.2,
-                                      fontSize: 16,
-                                      fontFamily: 'SUIT',
-                                      fontWeight: FontWeight.w500,
-                                      color: Color(0xFFCED0D5)),
-                                ),
-                                style: TextButton.styleFrom(
-                                  // fixedSize: Size(48, 48),
-                                  elevation: 0,
-                                  side: BorderSide(color: MIXIN_BLACK_5),
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(16),
-                                  ),
-                                ),
-                              ),
-                            ),
-                            SizedBox(
-                              width: 8,
-                            ),
-                            SizedBox(
-                              height: 48,
-                              width: 48,
-                              child: TextButton(
-                                onPressed: () {},
-                                child: Text(
-                                  '목',
-                                  style: TextStyle(
-                                      height: 1.2,
-                                      fontSize: 16,
-                                      fontFamily: 'SUIT',
-                                      fontWeight: FontWeight.w500,
-                                      color: Color(0xFFCED0D5)),
-                                ),
-                                style: TextButton.styleFrom(
-                                  // fixedSize: Size(48, 48),
-                                  elevation: 0,
-                                  side: BorderSide(color: MIXIN_BLACK_5),
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(16),
-                                  ),
-                                ),
-                              ),
-                            ),
-                            SizedBox(
-                              width: 8,
-                            ),
-                            SizedBox(
-                              height: 48,
-                              width: 48,
-                              child: TextButton(
-                                onPressed: () {},
-                                child: Text(
-                                  '금',
-                                  style: TextStyle(
-                                      height: 1.2,
-                                      fontSize: 16,
-                                      fontFamily: 'SUIT',
-                                      fontWeight: FontWeight.w500,
-                                      color: Color(0xFFCED0D5)),
-                                ),
-                                style: TextButton.styleFrom(
-                                  // fixedSize: Size(48, 48),
-                                  elevation: 0,
-                                  side: BorderSide(color: MIXIN_BLACK_5),
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(16),
-                                  ),
-                                ),
-                              ),
-                            ),
-                            SizedBox(
-                              width: 8,
-                            ),
-                            SizedBox(
-                              height: 48,
-                              width: 48,
-                              child: TextButton(
-                                onPressed: () {},
-                                child: Text(
-                                  '토',
-                                  style: TextStyle(
-                                      height: 1.2,
-                                      fontSize: 16,
-                                      fontFamily: 'SUIT',
-                                      fontWeight: FontWeight.w500,
-                                      color: Color(0xFFCED0D5)),
-                                ),
-                                style: TextButton.styleFrom(
-                                  // fixedSize: Size(48, 48),
-                                  elevation: 0,
-                                  side: BorderSide(color: MIXIN_BLACK_5),
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(16),
-                                  ),
-                                ),
-                              ),
-                            ),
-                            SizedBox(
-                              width: 8,
-                            ),
-                            SizedBox(
-                              height: 48,
-                              width: 48,
-                              child: TextButton(
-                                onPressed: () {},
-                                child: Text(
-                                  '일',
-                                  style: TextStyle(
-                                      height: 1.2,
-                                      fontSize: 16,
-                                      fontFamily: 'SUIT',
-                                      fontWeight: FontWeight.w500,
-                                      color: Color(0xFFCED0D5)),
-                                ),
-                                style: TextButton.styleFrom(
-                                  // fixedSize: Size(48, 48),
-                                  elevation: 0,
-                                  side: BorderSide(color: MIXIN_BLACK_5),
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(16),
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ],
+                          ),
                         ),
                       ),
                     ),
+
                     SizedBox(
                       height: 37,
                     ),
